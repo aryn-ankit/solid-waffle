@@ -4,7 +4,6 @@ import java.util.Stack;
 
 class NextGreaterElement {
 	public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-		// Your code goes here
 		int[] ans = new int[nums1.length];
 		Map<Integer,Integer> map = ngt(nums2);
 
@@ -15,7 +14,6 @@ class NextGreaterElement {
 				ans[i] = -1;
 			}
 		}
-
 		return ans;
 	}
 
